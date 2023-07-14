@@ -1,37 +1,157 @@
-*{
-    margin: 20px;
-    background-origin: padding-box;
+/* universal selector */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+body {
+    background-color: #e3f3ff;
+
+}
+
+a {
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+}
+
+p {
+    font-size: 25px;
+}
+
+/* header styles  */
 header {
-    padding: 15px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 25px;
     background-color: pink;
     color: #ffffff;
 }
 
 header h1 {
     display: inline-block;
-    font-size: 60px;
+    font-size: 75px;
 }
 
+/* header navigation styles */
 header nav {
-    padding-top: 0%;
+    padding-top: 20px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
-}
-
-header nav ul {
-    list-style-type: none;
+    font-size: 25px;
 }
 
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
-<<<<<<< HEAD
+    cursor: default;
 }
-=======
+
+header nav ul :hover {
+    background-color: rgb(251, 154, 170);
 }
->>>>>>> 5d3295145727343206cb2edab3493357b2ba3021
+
+/* background image styles */
+figcaption {
+    position: absolute;
+    top: 25%;
+    left: 90%;
+    font: 20px;
+    color: black;
+}
+
+/* about me section styles */
+#propic {
+    float: left;
+    max-width: 300px;
+    max-height: 300px;
+    margin: 10px;
+}
+
+.about-me {
+    text-align: center;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+/* main section styles */
+main {
+    margin: auto 20px;
+    padding: 20px;
+    align-content: stretch;
+}
+
+main h2 {
+    font-size: 50px;
+    color: rgb(0, 37, 146);
+    margin-left: 30px;
+}
+
+main div:hover {
+    background-color: royalblue;
+    cursor: pointer;
+}
+
+.parent {
+    display: inline-block;
+}
+
+.child {
+    justify-content: normal;
+    display: inline;
+    margin: 25px;
+    padding: 30px;
+    background: rgb(207, 207, 250);
+    width: 60%;
+    border: #b2222230 5px solid;
+    flex-wrap: wrap;
+    float: right;
+}
+
+.main-app img {
+    max-width: 250px;
+    max-height: 250px;
+}
+
+.apps {
+    max-width: 150px;
+    max-height: 150px;
+}
+
+/* links styles */
+#links :hover {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#links {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+    letter-spacing: .2rem;
+}
+
+/* media screen styles */
+@media screen and (max-width: 750px) {
+    header {
+        background-color: blue;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .child {
+        width: 100%;
+    }
+}
+
+/* footer styles */
+footer {
+    padding: 10px;
+    clear: both;
+    text-align: center;
+}
+
+footer h4 {
+    font-size: 15px;
+}
