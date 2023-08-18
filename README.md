@@ -13,6 +13,9 @@ Potenial employers can click on my webpage to view my information such as an abo
 ![alt txt](assets/images/Screen%20Shot%202023-07-14%20at%203.47.16%20AM.png)
 ![alt txt](assets/images/Screen%20Shot%202023-07-14%20at%203.47.23%20AM.png)
 
+https://nomin97.github.io/portfolio/
+
+
 ## Credits
 All html and css is by me. I used multiple websites like w3schools, educative.io, mdn web docs, as well as course material from our class for help.
 
